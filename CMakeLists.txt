@@ -24,7 +24,9 @@ include_directories(
 add_library(${PROJECT_NAME}_lib
   src/robot_info_class.cpp
   src/agv_robot_info_class.cpp
+  src/hydraulic_system_monitor.cpp
 )
+
 add_dependencies(${PROJECT_NAME}_lib ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
