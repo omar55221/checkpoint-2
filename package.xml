@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robot_gui</name>
+  <version>0.0.0</version>
+  <description>The robot_gui package</description>
+
+  <maintainer email="user@todo.todo">user</maintainer>
+  <!-- Update the license to reflect the actual license of your package -->
+  <license>Replace_with_actual_license</license> <!-- e.g., BSD, MIT, GPL -->
+
+  <!-- While OpenCV is not a catkin package and thus not listed here, 
+       it's a system dependency required by this package. 
+       Make sure it's installed in your system. -->
+  <!-- Documentation or website URLs can be added here -->
+  <!-- <url type="website">http://wiki.ros.org/robot_gui</url> -->
+
+  <!-- Author tags are optional -->
+  <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>robotinfo_msgs</build_depend> <!-- Ensure this matches the name of your custom message package -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_srvs</build_depend>
+
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  <build_export_depend>robotinfo_msgs</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>std_srvs</build_export_depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>robotinfo_msgs</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+
+  <!-- The export tag is for additional information like other tools' configurations -->
+  <export>
+    <!-- Tool-specific tags go here -->
+  </export>
+</package>
